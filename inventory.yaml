@@ -2,7 +2,10 @@ all:
   children:
     jenkins:
       hosts:
-        172.31.12.135:
+        172.31.36.113:
+    appserver:
+      hosts:
+        172.31.43.217:    
   vars:
     ansible_user: ubuntu
     ansible_ssh_private_key_file: "~/.ssh/privatekey"
